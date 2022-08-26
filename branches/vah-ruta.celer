@@ -6,6 +6,10 @@ Vah Ruta:
     var-change:
         MainQuest: 1
     notes: .v(MainQuest)/15 complete (Reach Zora's Domain)
+    
+- _Npc<Goddess Statue>:
+    coord: [3316.89, 256.04, -503.94]
+    comment: Redeem 6 Hearts
 
 - _Npc::ZoraMale<Muzu>:
     coord: [3303.90, 245.31, -496.23]
