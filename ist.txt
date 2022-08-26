@@ -1,0 +1,31 @@
+# Plateau
+Initialize 1 Slate
+Get 1 Shield 3 Weapon 4 HylianShroom 6 Pepper
+Get 1 Bow 5 NormalArrow 
+# Herbs after mag, Apple before tree wb
+Get 5 HyruleHerb 2 Apple 4 SpiritOrb 1 Glider
+# Sometime later
+Equip Weapon in Slot 3
+Get 3 AncientArrow
+# Shield needs to have 1 durability
+Drop Shield
+Pickup 1 Shield[life=100]
+Get 1 Apple
+Get 1 Fairy
+# Drop 4 items, break 4, pickup items, break 4 again
+With all Pepper all HylianShroom all HyruleHerb all Apple
+Break 8 Slots
+# SORT KEY ITEMS
+D&P 4 SpiritOrb
+#Unequip Shield
+Get 1 Apple
+Save
+Eat 1 Fairy 1 Apple
+Drop 3 Weapon 1 Bow 1 Shield
+Pickup 3 Weapon 1 Bow
+Unequip Weapon
+Unequip Bow
+Reload
+Save
+Close Game
+Reload

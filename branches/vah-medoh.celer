@@ -8,52 +8,44 @@ Vah Medoh:
     coord: [-3606.64, 323.62, -1823.03]
     comment: Revali memory
 
-- .!!(IST)
+- .!!(Do IST):
+    notes: .link([IST Simulator]https://dupl.itntpiston.app/) -> .link([IST Setup]https://raw.githubusercontent.com/cobchamp/botw_all_main_quests/ist.txt)
+    
+- Sell 510+ Fairies:
+    var-change:
+      Rupee: 1020
+      
+- .dir(<N turn super)
 
-# - _Shop<4 Sunshroom>:
-#     coord: [-3643.01, 290.64, -1823.43]
-#     var-change:
-#         Rupee: -64
-#     notes: .v(Rupee) rupees.
+- _Npc::Rito<Teba>:
+    coord: [-3798.52, 267.35, -2314.14]
 
-# - .dir(<N turn super)
+- _Chest<Falcon Bow>
 
-# - _Cook<Spicy Mushroom Skewer>:
-#     coord: [-3792.60, 267.34, -2319.19]
-#     comment: 4 Sunshroom
+- .dir(Enter Medoh):
+    icon: medoh-enter
+    split-type: UserDefined
+    notes: AA 1-shot cannons
 
-# - _Material<Arrow,10>
+- _Material<Ice Arrow,10>
 
-# - _Npc::Rito<Teba>:
-#     coord: [-3798.52, 267.35, -2314.14]
+- .boss(Windblight):
+    icon: calamity
+    notes: (royal/ancient) body or headshot to knock down, body shot while down, glide to center, two headshots. Phase 2 same (but no need to glide center)
 
-# - _Chest<Falcon Bow>
+- Revali's Gale:
+    icon: medoh-done
+    movements:
+        - to: [-3565.625,-1817.375]
+          warp: true
+    split-type: UserDefined
 
-# - .dir(Enter Medoh):
-#     icon: medoh-enter
-#     var-change:
-#         Arrow: -5
-#         BombArrow: -8
-#     split-type: UserDefined
+- _Npc<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+    var-change:
+        MainQuest: 1
+    notes: .v(MainQuest)/15 complete (Divine Beast Vah Medoh)
 
-# - _Material<Ancient Core,1>
+- _Chest::Special<Great Eagle Bow>
 
-# - _Material<Ice Arrow,10>
-
-# - .boss(Windblight):
-#     icon: calamity
-
-# - Revali's Gale:
-#     icon: medoh-done
-#     movements:
-#         - to: [-3565.625,-1817.375]
-#           warp: true
-#     split-type: UserDefined
-
-# - _Npc<Kaneli>:
-#     coord: [-3627.20, 323.57, -1830.81]
-#     var-change:
-#         MainQuest: 1
-#     notes: .v(MainQuest)/14 complete
-
-# - _Chest::Special<Great Eagle Bow>
+- _Warp::Shrine::KehNamut

@@ -1,0 +1,33 @@
+Vah Rudania:
+- .dir(E)
+- Kill moblins (Royal bow/aa) before cutscene trigger
+- _Npc::Goron<Yunobo>:
+    line-color: rgb(196,0,0)
+    coord: [2142.43, 634.02, -2288.29]
+    time-override: 999
+
+- .!!(Escort):
+    notes: use royal/aa to take out all sentries, The moving ones can be hard to hit, maybe worth to go into bullet time to snipe them or use falcon
+
+- Enter Rudania:
+    icon: rudania-enter
+    movements:
+        - to: [2235,-2370]
+        - to: [2502.61, 667.95, -2270.26]
+        - to: [2701.02, 726.21, -2363.06]
+        - to: [2794.50, 774.84, -2657.93]
+    split-type: UserDefined
+
+- .gale():
+    gale: 1
+
+- .boss(Fireblight):
+    icon: calamity
+    fury: 1
+
+- Daruk's Protection:
+    icon: rudania-done
+    movements:
+        - to: [1572.5,-2422.5]
+          warp: true
+    split-type: UserDefined

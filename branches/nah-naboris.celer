@@ -1,0 +1,42 @@
+Vah Naboris:
+- .dir(S>)
+
+- _Npc<Riju>:
+    line-color: rgb(128,128,0)
+    coord: [-3868.85, 166.67, 2948.96]
+    comment: On balcony, Urbosa Memory
+
+- .dir(W> super)
+- _Npc<Riju>:
+    coord: [-3420.68, 189.82, 3118.97]
+    comment: At outpost
+
+- Begin Enter Naboris
+
+- Enter Naboris:
+    icon: naboris-enter
+    coord: [-2754.62, 112.53, 3749.44]
+    split-type: UserDefined
+
+- .gale():
+    gale: 2
+
+- .boss(Thunderblight):
+    icon: calamity
+
+- Urbosa's Fury:
+    icon: naboris-done
+    line-color: rgb(255,0,0)
+    movements:
+        - to: [-3772,2851]
+          warp: true
+    split-type: UserDefined
+
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: In throne room
+    var-change:
+        MainQuest: 1
+    notes: .v(MainQuest)/15 complete (Divine Beast Vah Naboris)
+
+- _Warp::Shrine::DaqaKoh

@@ -1,25 +1,20 @@
 Ganon:
-- .dir(BLSS):
-    notes: .link([Clip]https://youtu.be/nnlz4Cu7d5Y?t=7344)
-
-- _Memory::SpringofPower:
-    line-color: rgb(255,255,255)
-
 - _Warp::Shrine::TalohNaeg
 
 - _Npc::SheikaFemale<Impa 3>:
     coord: [1772.71, 229.43, 984.31]
+    line-color: rgb(255,255,255)
     comment: Champion's Tunic
     var-change:
         MainQuest: 1
-    notes: .v(MainQuest)/14 complete
+    notes: .v(MainQuest)/15 complete (Free the Divine Beasts)
 
 - _Npc<Pikango>:
     coord: [1828.22, 218.59, 990.14]
     comment: Find the Fairy Fountain
     var-change:
         MainQuest: 1
-    notes: .v(MainQuest)/14 complete
+    notes: .v(MainQuest)/15 complete (Find the Fairy Fountain)
 
 - .dir(W) to hill
 - .dir(<S turn super)
@@ -27,19 +22,15 @@ Ganon:
 - _Memory::AshSwamp:
     var-change:
         MainQuest: 1
-    notes: .v(MainQuest)/14 complete
-
-- _Warp::Shrine::MyahmAgana
-
-- _Npc<Demon Statue>:
-    coord: [3285.60, 217.60, 2197.58]
-
-- .!!(Heart Dupe)
+    notes: .v(MainQuest)/15 complete (Captured Memories)
 
 - _Warp::Shrine::ShaeMosah
 
 - _Npc::Goron<Bludo>:
     coord: [1713.95, 498.05, -2446.92]
+    var-change:
+        MainQuest: 1
+    notes: .v(MainQuest)/15 complete (Divine Beast Vah Rudania)
 
 - .dir(<W) out of Goron City:
     notes: .link([Clip]https://youtu.be/nnlz4Cu7d5Y?t=8085)
@@ -50,7 +41,7 @@ Ganon:
     coord: [431.66, 250.53, -2111.00]
     var-change:
         MainQuest: 1
-    notes: .v(MainQuest)/14 complete
+    notes: .v(MainQuest)/15 complete (The Hero's Sword)
 
 - .dir(N + climb) to top of Deku Tree:
     notes: .link([Clip]https://youtu.be/nnlz4Cu7d5Y?t=8236)
@@ -70,4 +61,4 @@ Ganon:
     split-type: UserDefined
     var-change:
         MainQuest: 1
-    notes: .v(MainQuest)/14 complete
+    notes: .v(MainQuest)/15 complete (Destroy Ganon)

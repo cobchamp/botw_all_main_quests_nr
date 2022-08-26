@@ -5,13 +5,13 @@ Plateau:
 - .loc(Boko Camp)
 
 - +_Equipment::Shield<Pot Lid>:
+    line-color: rgb(204,204,204)
     coord: [-952.34, 238.33, 1959.44]
 
 - +_Equipment::Weapon<Boko Spear>:
     hide-icon-on-map: true
 
 - +_Material<6 Spicy Pepper>:
-    line-color: rgb(204,204,204)
     coord: [-965.30, 238.52, 1956.67]
 
 - +_Material<4 Hylian Shroom>:
@@ -33,7 +33,10 @@ Plateau:
 - _Shrine::JaBaij
 
 - BLSS
-- _Tower::GreatPlateau
+- _Tower::GreatPlateau:
+    var-change:
+        MainQuest: 1
+    notes: .v(MainQuest)/15 complete (Follow the Sheikah Slate)
 
 - BLSS:
     comment: .link([Clip]https://youtu.be/nnlz4Cu7d5Y?t=521)
@@ -62,3 +65,6 @@ Plateau:
     icon: king
     coord: [-812, 1966.1012189378007]
     split-type: UserDefined
+    var-change:
+        MainQuest: 1
+    notes: .v(MainQuest)/15 complete (The Isolated Plateau)

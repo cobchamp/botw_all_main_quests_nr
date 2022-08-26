@@ -1,12 +1,11 @@
 Vah Ruta:
 - .dir(BLSS)
 - _Npc::ZoraMale<King Dorephan>:
-    line-color: rgb(196,196,255)
     coord: [3338.31, 268.90, -551.60]
     comment: Fish Drama
     var-change:
         MainQuest: 1
-    notes: .v(MainQuest)/14 complete
+    notes: .v(MainQuest)/15 complete (Reach Zora's Domain)
 
 - _Npc::ZoraMale<Muzu>:
     coord: [3303.90, 245.31, -496.23]
@@ -36,10 +35,9 @@ Vah Ruta:
 
 - .dir(N>)
 - _Npc::ZoraMale<King Dorephan>:
-    line-color: rgb(128,128,255)
     coord: [3338.31, 268.90, -551.60]
     var-change:
         MainQuest: 1
-    notes: .v(MainQuest)/14 complete
+    notes: .v(MainQuest)/15 complete (Divine Beast Vah Ruta)
 
-- _Warp::VahRudania
+- _Warp::Shrine::DaqoChisay

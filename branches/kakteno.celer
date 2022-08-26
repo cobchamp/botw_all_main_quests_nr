@@ -5,6 +5,9 @@ Kakteno:
     movements:
         - to: [1784.43, 228.91, 986.46]
         - to: [1772.71, 229.43, 984.31]
+    var-change:
+        MainQuest: 1
+    notes: .v(MainQuest)/15 complete (Seek Out Impa)
 
 # - _Equipment::Shield<Pot Lid>:
 #     coord: [1800.25, 219.63, 1012.57]
@@ -58,6 +61,9 @@ Kakteno:
 - _Npc::SheikaFemale<Impa 2>:
     line-color: rgb(255,0,255)
     coord: [1772.71, 229.43, 984.31]
+    var-change:
+        MainQuest: 1
+    notes: .v(MainQuest)/15 complete (Locked Mementos)
 
 - .dir(<E)
 - _Material<4 Fairy>:
