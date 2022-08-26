@@ -2,17 +2,13 @@ Yunobo:
 - WB chain and .dir(BLSS):
     movements:
       - to: [-3211,1241.003501094092]
-- _Memory::EldinCanyon
-
-- .dir(BLSS):
-    comment: .link([Clip]https://youtu.be/nnlz4Cu7d5Y?t=5258)
 
 - _Npc::Goron<Bludo>:
     coord: [1713.95, 498.05, -2446.92]
 
 - .dir(N>)
 
-- Shae Mo'sah:
+- Activate Shae Mo'sah:
     icon: shrine
     coord: [1756.6875,-2561.6753829321665]
 
@@ -30,3 +26,5 @@ Yunobo:
 - Activate Daqa Koh:
     icon: shrine
     coord: [2041.40, 603.06, -2329.10]
+- WB .dir(SW)
+- _Memory::EldinCanyon
