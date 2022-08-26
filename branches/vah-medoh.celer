@@ -9,7 +9,7 @@ Vah Medoh:
     comment: Revali memory
 
 - .!!(Do IST):
-    notes: .link([IST Simulator]https://dupl.itntpiston.app/) -> .link([IST Setup]https://raw.githubusercontent.com/cobchamp/botw_all_main_quests/ist.txt)
+    notes: .link([IST Simulator]https://dupl.itntpiston.app/) -> .link([IST Setup]https://raw.githubusercontent.com/cobchamp/botw_all_main_quests_nr/ist.txt)
     
 - Sell 510+ Fairies:
     var-change:
