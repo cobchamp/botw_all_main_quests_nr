@@ -14,7 +14,10 @@ Vah Medoh:
 - Sell 510+ Fairies:
     var-change:
       Rupee: 1020
-      
+
+- +_Equipment::Shield<Pot Lid>:
+    coord: [-3588.54, 298.00, -1809.50]
+    
 - .dir(<N turn super)
 
 - _Npc::Rito<Teba>:
@@ -48,4 +51,5 @@ Vah Medoh:
 
 - _Chest::Special<Great Eagle Bow>
 
-- _Warp::Shrine::KehNamut
+- _Warp::Shrine::KehNamut:
+    split-type: none

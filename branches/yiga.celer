@@ -9,7 +9,11 @@ Yiga:
     icon: shrine
     coord: [-3792.88, 147.19, 2807.05]
 
-- .dir(<E turn + E midair)
+- .dir(BLSS) from Shrine Elevator
+
+- _Memory::KaraKaraBazaar
+
+- .dir(W)
 - _Npc<Vilia>:
     coord: [-3259.27, 163.93, 2611.54]
     comment: Buy clothes

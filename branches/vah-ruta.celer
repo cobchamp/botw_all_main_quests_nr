@@ -44,4 +44,5 @@ Vah Ruta:
         MainQuest: 1
     notes: .v(MainQuest)/15 complete (Divine Beast Vah Ruta)
 
-- _Warp::Shrine::DaqoChisay
+- _Warp::Shrine::DaqoChisay:
+    split-type: none

@@ -11,6 +11,7 @@ Yunobo:
 - Activate Shae Mo'sah:
     icon: shrine
     coord: [1756.6875,-2561.6753829321665]
+    split-type: UserDefined
 
 - .dir(<N turn)
 - _Npc::Goron<Yunobo>:
@@ -26,5 +27,6 @@ Yunobo:
 - Activate Daqa Koh:
     icon: shrine
     coord: [2041.40, 603.06, -2329.10]
+    split-type: UserDefined
 - WB .dir(SW)
 - _Memory::EldinCanyon

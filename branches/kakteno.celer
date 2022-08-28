@@ -9,9 +9,6 @@ Kakteno:
         MainQuest: 1
     notes: .v(MainQuest)/15 complete (Seek Out Impa)
 
-# - _Equipment::Shield<Pot Lid>:
-#     coord: [1800.25, 219.63, 1012.57]
-
 - _Shop<Sell Ruby>:
     coord: [1792.02, 222.40, 1028.39]
     comment: Buy coward eggs
@@ -20,6 +17,7 @@ Kakteno:
 - Activate Ta'loh Naeg:
     coord: [1842,891]
     icon: shrine
+    split-type: UserDefined
 
 - .dir(N.) up -> BLSS:
     coord: [1871.5,810.5]
@@ -52,7 +50,8 @@ Kakteno:
     coord: [3774.95, 357.00, 2126.02]
 
 - WARP
-- _Warp::Shrine::TalohNaeg
+- _Warp::Shrine::TalohNaeg:
+    split-type: none
 
 # - _Npc<Goddess Statue>:
 #     coord: [1840.12, 218.54, 997.89]
