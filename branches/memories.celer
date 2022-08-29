@@ -29,25 +29,70 @@ Memories:
     coord: [1871.5,810.5]
 - _Memory::LanayruRoad
 
-- .dir(.W) -> BLSS:
+- .dir(.E) -> BLSS:
     coord: [3439.15, 317.13, 1100.78]
+    notes: Go east around Lanayru
 - _Memory::SpringofPower
 
 - WARP
-- _Warp::Shrine::KehNamut:
+- _Warp::Tower::GreatPlateau:
     line-color: lime
+    split-type: none
 
 - BLSS
+
+- +5 Normal Arrow:
+    icon: bow
+    hide-icon-on-map: true
+- +_Chest<3 Ancient Arrows>:
+    coord: [-254.00, 209.67, -742.37]
+- +_Equipment::Bow<Royal Bow>:
+    hide-icon-on-map: true
+
+- .dir(W) + .dir(N)
 - _Memory::HyruleCastle
 
-- BLSS
-- _Memory::IrchPlain
+- .dir(N.) -> BLSS
 
-- BLSS
-- _Chest<3 Ancient Arrows>:
-    coord: [-254.00, 209.67, -742.37]
-- _Equipment::Bow<Royal Bow>:
+- .loc(Korok Forest):
+    coord: [425.08, 258.87, -2173.52]
+
+- +_Equipment::Weapon<Soup Ladle>:
     hide-icon-on-map: true
+    comment: Inside tech lab
+
+- + Buy 4 Razorshrooms:
+    icon: material
+    var-change:
+      Rupee: -80
+      
+- +_Cook<Attack Up Food>:
+    coord: [420.36, 258.36, -2176.2]
+    comment: 4 Razorshrooms
+
+- + .!!(Do IST):
+    icon: shop
+    notes: .link([IST Simulator]https://dupl.itntpiston.app/) -> .link([IST Setup]https://raw.githubusercontent.com/cobchamp/botw_all_main_quests_nr/main/ist.txt)
+
+- + Sell 510+ Fairies:
+    icon: shop
+    var-change:
+      Rupee: 1020
+      
+- _Npc<Goddess Statue>:
+    coord: [415.74, 258.73, -2179.85]
+    comment: Redeem 10 Hearts
+
+- _Equipment::Weapon<Master Sword>:
+    coord: [431.66, 250.53, -2111.00]
+    split-type: UserDefined
+    var-change:
+        MainQuest: 1
+    notes: .v(MainQuest)/15 complete (The Hero's Sword)
+    
+- .dir(SW) + .dir(S> turn) -> BLSS
+
+- _Memory::IrchPlain
 
 - .dir(S)
 - _Memory::SacredGrounds
@@ -64,9 +109,7 @@ Memories:
 - BLSS -> .dir(<N) + .dir(W>)
 - _Memory::SanidinPark
 
-- .dir(<<N)
-- _Material<10+ Hyrule Herb>:
-    coord: [-1848.40, 269.02, 356.94]
+- .dir(<<N) to Satori Mt
 
 - .dir(N) + .dir(E) -> BLSS
 - _Memory::AncientColumns

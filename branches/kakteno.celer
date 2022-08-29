@@ -11,7 +11,8 @@ Kakteno:
 
 - _Shop<Sell Ruby>:
     coord: [1792.02, 222.40, 1028.39]
-    comment: Buy coward eggs
+    var-change:
+      Rupee: 210
 
 - .dir(N.)
 - Activate Ta'loh Naeg:
@@ -34,13 +35,6 @@ Kakteno:
         - to: [3783,2106.5]
     comment: Don't throw away spear
 
-- _Material<2 Apple>:
-    hide-icon-on-map: true
-
-- _Equipment::Weapon<Torch>:
-    hide-icon-on-map: true
-    comment: Inside tech lab
-
 - Camera:
     icon: camera-plus
     hide-icon-on-map: true
@@ -53,10 +47,6 @@ Kakteno:
 - _Warp::Shrine::TalohNaeg:
     split-type: none
 
-# - _Npc<Goddess Statue>:
-#     coord: [1840.12, 218.54, 997.89]
-#     comment: +1 heart
-
 - _Npc::SheikaFemale<Impa 2>:
     line-color: rgb(255,0,255)
     coord: [1772.71, 229.43, 984.31]
@@ -65,7 +55,14 @@ Kakteno:
     notes: .v(MainQuest)/15 complete (Locked Mementos)
 
 - .dir(<E)
-- _Material<4 Fairy>:
+- +_Material<4 Fairy>:
     hide-icon-on-map: true
-- _Snap::Quest<Great Fairy Fountain>:
+- +_Material<3 Blue Nightshade>:
+    hide-icon-on-map: true
+- +_Material<3 Silent Princess>:
+    hide-icon-on-map: true
+- _Snap::Quest<Snap Great Fairy Fountain>:
     coord: [1976.00, 267.50, 846.00]
+    split-type: UserDefined
+    var-change:
+      Rupee: -100

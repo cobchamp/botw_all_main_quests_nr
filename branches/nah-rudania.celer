@@ -23,7 +23,7 @@ Vah Rudania:
 
 - .boss(Fireblight):
     icon: calamity
-    fury: 1
+    hide-icon-on-map: true
 
 - Daruk's Protection:
     icon: rudania-done

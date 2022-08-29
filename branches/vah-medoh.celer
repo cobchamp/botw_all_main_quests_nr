@@ -2,38 +2,45 @@ Vah Medoh:
 - BLSS
 
 - _Npc::Rito<Kaneli>:
+    line-color: rgb(115, 222, 126)
     coord: [-3627.20, 323.57, -1830.81]
 
 - _Npc::Rito<Saki>:
     coord: [-3606.64, 323.62, -1823.03]
     comment: Revali memory
 
-- .!!(Do IST):
-    notes: .link([IST Simulator]https://dupl.itntpiston.app/) -> .link([IST Setup]https://raw.githubusercontent.com/cobchamp/botw_all_main_quests_nr/main/ist.txt)
-    
-- Sell 510+ Fairies:
-    var-change:
-      Rupee: 1020
-
 - +_Equipment::Shield<Pot Lid>:
     coord: [-3588.54, 298.00, -1809.50]
+    hide-icon-on-map: true
     
 - .dir(<N turn super)
 
+- +_Equipment::Bow<Swallow Bow>:
+    coord: [-3793.13, 268.29, -2324.26]
+    hide-icon-on-map: true
+    
+- +10 Normal Arrow:
+    icon: bow
+    hide-icon-on-map: true
+
 - _Npc::Rito<Teba>:
+    hide-icon-on-map: true
     coord: [-3798.52, 267.35, -2314.14]
 
-- _Chest<Falcon Bow>
+- _Chest<Falcon Bow>:
+    hide-icon-on-map: true
 
 - .dir(Enter Medoh):
     icon: medoh-enter
     split-type: UserDefined
     notes: AA 1-shot cannons
 
-- _Material<Ice Arrow,10>
+- _Material<Ice Arrow,10>:
+    hide-icon-on-map: true
 
 - .boss(Windblight):
     icon: calamity
+    hide-icon-on-map: true
     notes: (royal/ancient) body or headshot to knock down, body shot while down, glide to center, two headshots. Phase 2 same (but no need to glide center)
 
 - Revali's Gale:
@@ -45,11 +52,13 @@ Vah Medoh:
 
 - _Npc<Kaneli>:
     coord: [-3627.20, 323.57, -1830.81]
+    line-color: rgb(255,0,0)
     var-change:
         MainQuest: 1
     notes: .v(MainQuest)/15 complete (Divine Beast Vah Medoh)
 
-- _Chest::Special<Great Eagle Bow>
+- _Chest::Special<Great Eagle Bow>:
+    hide-icon-on-map: true
 
 - _Warp::Shrine::KehNamut:
     split-type: none

@@ -34,23 +34,8 @@ Ganon:
         MainQuest: 1
     notes: .v(MainQuest)/15 complete (Divine Beast Vah Rudania)
 
-- .dir(<W) out of Goron City:
-    notes: .link([Clip]https://youtu.be/nnlz4Cu7d5Y?t=8085)
-
+- .dir(<W) out of Goron City
 - .dir(BLSS)
-
-- _Equipment::Weapon<Master Sword>:
-    coord: [431.66, 250.53, -2111.00]
-    split-type: UserDefined
-    var-change:
-        MainQuest: 1
-    notes: .v(MainQuest)/15 complete (The Hero's Sword)
-
-- .dir(N + climb) to top of Deku Tree:
-    notes: .link([Clip]https://youtu.be/nnlz4Cu7d5Y?t=8236)
-
-- .dir(BLSS):
-    notes: With acorn jar.
 
 - .boss(Calamity Ganon):
     icon: ganon

@@ -4,6 +4,7 @@ Yunobo:
       - to: [-3211,1241.003501094092]
 
 - _Npc::Goron<Bludo>:
+    line-color: rgb(222, 115, 115)
     coord: [1713.95, 498.05, -2446.92]
 
 - .dir(N>)

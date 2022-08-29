@@ -22,6 +22,7 @@ Vah Naboris:
     gale: 2
 
 - .boss(Thunderblight):
+    hide-icon-on-map: true
     icon: calamity
 
 - Urbosa's Fury:

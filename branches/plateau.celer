@@ -20,10 +20,10 @@ Plateau:
 - .loc(Temple of Time):
     notes: Clip in.
 
-- _Chest<Traveler's Bow>:
+- +_Chest<Traveler's Bow>:
     coord: [-832.43, 222.00, 1963.11]
 
-- 5 Normal Arrow:
+- +5 Normal Arrow:
     icon: bow
     hide-icon-on-map: true
 
@@ -44,19 +44,13 @@ Plateau:
 - _Chest<1 Ruby>:
     coord: [-671.65, 171.79, 1522.61]
 
-- _Shrine::OmanAu:
-    comment: HAMMER
-
-- _Material<5 Hyrule Herb>:
-    coord: [-709.74, 171.46, 1481.88]
+- _Shrine::OmanAu
 
 - BLSS
 
-- _Material<2 Apple>:
-    coord: [-856.45, 192.73, 2274.48]
-
-- .dir(.W)
-- _Shrine::OwaDaim
+- Tree WB .dir(.W)
+- _Shrine::OwaDaim:
+    comment: HAMMER
 
 - _Shrine::KehNamut
 

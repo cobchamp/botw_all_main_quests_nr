@@ -50,6 +50,7 @@ Yiga:
 - .dir(Clip in)
 
 - _Equipment::Bow<Duplex Bow>:
+    hide-icon-on-map: true
     coord: [-3510.46, 442.51, 1297.31]
 
 - Enter Kohga fight:
