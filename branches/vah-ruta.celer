@@ -1,7 +1,9 @@
 Vah Ruta:
+- .dir(S.)
+- _Memory::EldinCanyon:
+    line-color: '#5bd2f1'
 - .dir(BLSS)
 - _Npc::ZoraMale<King Dorephan>:
-    line-color: '#5bd2f1'
     coord: [3338.31, 268.90, -551.60]
     comment: Fish Drama
     var-change:
@@ -20,9 +22,6 @@ Vah Ruta:
     coord: [3662.40, 315.66, -175.42]
     time-override: 999
     split-type: UserDefined
-
-- .gale():
-    gale: 1
 
 - .boss(Waterblight):
     hide-icon-on-map: true

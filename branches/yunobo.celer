@@ -9,14 +9,10 @@ Yunobo:
 
 - .dir(N>)
 
-- Activate Shae Mo'sah:
-    icon: shrine
-    coord: [1756.6875,-2561.6753829321665]
-    split-type: UserDefined
-
 - .dir(<N turn)
 - _Npc::Goron<Yunobo>:
     coord: [1630.68, 560.52, -2941.37]
+    split-type: UserDefined
     notes: .link([Clip]https://youtu.be/6H7DROMaXQU?t=3419)
 
 - .dir(<<S)
@@ -24,10 +20,4 @@ Yunobo:
     coord: [1713.95, 498.05, -2446.92]
     comment: Daruk Memory
 
-- .dir(S) to small peak
-- Activate Daqa Koh:
-    icon: shrine
-    coord: [2041.40, 603.06, -2329.10]
-    split-type: UserDefined
-- WB .dir(SW)
-- _Memory::EldinCanyon
+- .dir(E) + .dir(E)

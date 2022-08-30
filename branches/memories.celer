@@ -30,7 +30,9 @@ Memories:
 - _Memory::LanayruRoad
 
 - .dir(.E) -> BLSS:
-    coord: [3439.15, 317.13, 1100.78]
+    movements: 
+      - to: [3439.15, 317.13, 1100.78]
+      - to: [4384,-264] 
     notes: Go east around Lanayru
 - _Memory::SpringofPower
 

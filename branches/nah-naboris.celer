@@ -39,6 +39,3 @@ Vah Naboris:
     var-change:
         MainQuest: 1
     notes: .v(MainQuest)/15 complete (Divine Beast Vah Naboris)
-
-- _Warp::Shrine::DaqaKoh:
-    split-type: none
