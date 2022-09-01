@@ -23,6 +23,9 @@ Vah Ruta:
     time-override: 999
     split-type: UserDefined
 
+- .gale():
+    gale: 1
+
 - .boss(Waterblight):
     hide-icon-on-map: true
     icon: calamity
@@ -41,6 +44,3 @@ Vah Ruta:
     var-change:
         MainQuest: 1
     notes: .v(MainQuest)/15 complete (Divine Beast Vah Ruta)
-
-- _Warp::Shrine::DaqoChisay:
-    split-type: none

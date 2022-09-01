@@ -1,29 +1,3 @@
-Memories A:
-- _Warp::Tower::GreatPlateau
-- _Memory::SanidinPark
-- _Memory::IrchPlain
-- _Memory::HyruleCastle
-- _Chest<3 Ancient Arrows>:
-    coord: [-254.00, 209.67, -742.37]
-- _Memory::SacredGrounds
-- _Memory::HyruleField
-- _Memory::WestNecluda
-- _Memory::LakeKolomo
-- _Warp::Shrine::KehNamut
-- _Memory::AncientColumns
-
-Memories B:
-- _Memory::HyruleCastle
-- _Memory::IrchPlain
-- _Chest<3 Ancient Arrows>:
-    coord: [-254.00, 209.67, -742.37]
-- _Memory::SacredGrounds
-- _Memory::HyruleField
-- _Memory::WestNecluda
-- _Memory::LakeKolomo
-- _Memory::SanidinPark
-- _Memory::AncientColumns
-
 Memories:
 - .dir(W.) up -> BLSS:
     coord: [1871.5,810.5]
@@ -56,8 +30,15 @@ Memories:
 
 - .dir(N.) -> BLSS
 
-- .loc(Korok Forest):
-    coord: [425.08, 258.87, -2173.52]
+- .loc(Korok Forest)
+
+- +Activate Keo Ruug:
+    icon: shrine
+    coord: [474.69, 248.84, -2167.82]
+    
+- +_Material<3 Silent Princess>:
+    coord: [427.84, 249.19, -2114.52]
+    hide-icon-on-map: true
 
 - +_Equipment::Weapon<Soup Ladle>:
     hide-icon-on-map: true

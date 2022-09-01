@@ -59,8 +59,6 @@ Kakteno:
     hide-icon-on-map: true
 - +_Material<3 Blue Nightshade>:
     hide-icon-on-map: true
-- +_Material<3 Silent Princess>:
-    hide-icon-on-map: true
 - _Snap::Quest<Snap Great Fairy Fountain>:
     coord: [1976.00, 267.50, 846.00]
     split-type: UserDefined

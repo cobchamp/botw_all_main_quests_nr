@@ -1,7 +1,9 @@
 Yunobo:
-- WB chain and .dir(BLSS):
-    movements:
-      - to: [-3211,1241.003501094092]
+- _Warp::Shrine::KeoRuug:
+    split-type: none
+    
+- Climb log WB .dir(.E >) superlaunch
+- WB chain up to Goron City
 
 - _Npc::Goron<Bludo>:
     line-color: rgb(222, 115, 115)

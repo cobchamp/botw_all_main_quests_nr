@@ -1,4 +1,9 @@
 Vah Naboris:
+- .gale():
+    gale: 1
+    notes: burn gale
+- _Warp::Shrine::DaqoChisay:
+    split-type: none
 - .dir(S>)
 
 - _Npc<Riju>:
