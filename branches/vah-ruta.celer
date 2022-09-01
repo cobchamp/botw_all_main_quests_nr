@@ -23,9 +23,6 @@ Vah Ruta:
     time-override: 999
     split-type: UserDefined
 
-- .gale():
-    gale: 1
-
 - .boss(Waterblight):
     hide-icon-on-map: true
     icon: calamity
